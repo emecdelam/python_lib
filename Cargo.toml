@@ -1,11 +1,11 @@
 [package]
-name = "emec_dev_tools"
+name = "emec"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
-name = "emec_dev_tools"
+name = "emec"
 crate-type = ["cdylib"]
 
 [dependencies]

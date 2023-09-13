@@ -2,7 +2,7 @@ use pyo3::prelude::*;
 
 /// Converts a list of numbers to an ASCII string.
 #[pyfunction]
-pub fn numbers_to_ascii(numbers: Vec<u8>) -> String {
+pub fn numbers_ascii(numbers: Vec<u8>) -> String {
     let mut ascii_string = String::new();
 
     for &num in numbers.iter() {
